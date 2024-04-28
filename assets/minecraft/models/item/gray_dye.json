@@ -1,0 +1,58 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/gray_dye"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1}, "model":"item/attachment/exps3"},
+		{"predicate": {"custom_model_data": 2}, "model":"item/attachment/amg"},
+    {"predicate": {"custom_model_data": 3}, "model":"item/attachment/delta"},
+    {"predicate": {"custom_model_data": 4}, "model":"item/attachment/ekp8"},
+    {"predicate": {"custom_model_data": 5}, "model":"item/attachment/exps3_booster"},
+    {"predicate": {"custom_model_data": 6}, "model":"item/attachment/h1"},
+    {"predicate": {"custom_model_data": 7}, "model":"item/attachment/okp7"},
+    {"predicate": {"custom_model_data": 8}, "model":"item/attachment/pk120"},
+    {"predicate": {"custom_model_data": 9}, "model":"item/attachment/acog"},
+    {"predicate": {"custom_model_data":10}, "model":"item/attachment/bravo4"},
+    {"predicate": {"custom_model_data":11}, "model":"item/attachment/compm4"},
+    {"predicate": {"custom_model_data":12}, "model":"item/attachment/xps2"},
+    {"predicate": {"custom_model_data":13}, "model":"item/attachment/pso1"},
+    {"predicate": {"custom_model_data":14}, "model":"item/attachment/psu14"},
+    {"predicate": {"custom_model_data":15}, "model":"item/attachment/ff416"},
+    {"predicate": {"custom_model_data":16}, "model":"item/attachment/marchf"},
+    {"predicate": {"custom_model_data":17}, "model":"item/attachment/nx8"},
+    {"predicate": {"custom_model_data":18}, "model":"item/attachment/sb312"},
+    {"predicate": {"custom_model_data":19}, "model":"item/attachment/xp6"},
+    {"predicate": {"custom_model_data":20}, "model":"item/attachment/ap_round2"},
+    {"predicate": {"custom_model_data":21}, "model":"item/attachment/hv_round"},
+    {"predicate": {"custom_model_data":22}, "model":"item/attachment/incendiary_round"},
+    {"predicate": {"custom_model_data":23}, "model":"item/attachment/jhp_round"},
+    {"predicate": {"custom_model_data":24}, "model":"item/attachment/slug"},
+    {"predicate": {"custom_model_data":25}, "model":"item/attachment/inc"},
+    {"predicate": {"custom_model_data":26}, "model":"item/attachment/exp"},
+    {"predicate": {"custom_model_data":27}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":28}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":29}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":30}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":31}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":32}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":33}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":34}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":35}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":36}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":37}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":38}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":39}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":40}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":41}, "model":"item/attachment/"},
+    {"predicate": {"custom_model_data":42}, "model":"item/attachment/"},
+		
+
+
+
+
+    {"predicate": {"custom_model_data":9999}, "model":"item/unko"}
+
+
+  ]
+}
