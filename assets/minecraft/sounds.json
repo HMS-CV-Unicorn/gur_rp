@@ -904,6 +904,62 @@
 ]
 },
 
+"grenade.flag.ext":{
+    "category":"master",
+    "sounds":[
+    "grenade/frag/phy_frag_bounce_concrete_med_01_ext",
+    "grenade/frag/phy_frag_bounce_concrete_med_02_ext",
+    "grenade/frag/phy_frag_bounce_concrete_med_03_ext",
+    "grenade/frag/phy_frag_bounce_concrete_med_04_ext",
+    "grenade/frag/phy_frag_bounce_concrete_med_05_ext",
+    "grenade/frag/phy_frag_bounce_concrete_med_06_ext",
+    "grenade/frag/phy_frag_bounce_concrete_med_07_ext",
+    "grenade/frag/phy_frag_bounce_concrete_med_08_ext"
+    ]
+    },
+
+"grenade.flag.int":{
+    "category":"master",
+    "sounds":[
+    "grenade/frag/phy_frag_bounce_concrete_med_01_int",
+    "grenade/frag/phy_frag_bounce_concrete_med_02_int",
+    "grenade/frag/phy_frag_bounce_concrete_med_03_int",
+    "grenade/frag/phy_frag_bounce_concrete_med_04_int",
+    "grenade/frag/phy_frag_bounce_concrete_med_05_int",
+    "grenade/frag/phy_frag_bounce_concrete_med_06_int",
+    "grenade/frag/phy_frag_bounce_concrete_med_07_int",
+    "grenade/frag/phy_frag_bounce_concrete_med_08_int"
+    ]
+    },
+
+"grenade.flash.ext":{
+    "category":"master",
+    "sounds":[
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_01_ext",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_02_ext",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_03_ext",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_04_ext",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_05_ext",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_06_ext",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_07_ext",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_08_ext"
+    ]
+    },
+
+"grenade.flash.int":{
+    "category":"master",
+    "sounds":[
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_01_int",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_02_int",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_03_int",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_04_int",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_05_int",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_06_int",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_07_int",
+    "grenade/flash/phy_iw9_v2_flash_bounce_concrete_med_08_int"
+    ]
+    },
+
 "interior.":{
     "category":"master",
     "sounds":["interior/"]
