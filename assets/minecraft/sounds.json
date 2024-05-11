@@ -644,6 +644,16 @@
 
 "heavy.":{"category":"master","sounds":["heavy/"]},
 
+"heavy.m32":{"category":"master","sounds":["heavy/m32"]},
+"heavy.m320rel":{"category":"master","sounds":["heavy/m320rel"]},
+"heavy.m79":{"category":"master","sounds":["heavy/m79"]},
+"heavy.mgl140":{"category":"master","sounds":["heavy/mgl140"]},
+"heavy.mgl140rel":{"category":"master","sounds":["heavy/mgl140rel"]},
+
+"heavy.semtex_beep":{"category":"master","sounds":["heavy/semtex_beep"]},
+"heavy.semtex_beep_lp":{"category":"master","sounds":["heavy/semtex_beep_lp"]},
+"heavy.semtex_beep_tail":{"category":"master","sounds":["heavy/semtex_beep_tail"]},
+
 "heavy.smoke":{"category":"master","sounds":["heavy/smoke"]},
 
 "heavy.gas":{"category":"master","sounds":["heavy/gas1","heavy/gas2","heavy/gas3"]},
@@ -715,6 +725,9 @@
 "mono.heavy.stinger":{"category":"master","sounds":["1mono/heavy/stinger_1"]},
 "mono.heavy.carlgustafm4":{"category":"master","sounds":["1mono/heavy/carlgustafm4_1","1mono/heavy/carlgustafm4_2"]},
 "mono.heavy.rpg7":{"category":"master","sounds":["1mono/heavy/rpg7_1","1mono/heavy/rpg7_2","1mono/heavy/rpg7_3"]},
+"mono.heavy.m32":{"category":"master","sounds":["1mono/heavy/m32"]},
+"mono.heavy.m79":{"category":"master","sounds":["1mono/heavy/m79"]},
+"mono.heavy.mgl140":{"category":"master","sounds":["1mono/heavy/mgl140"]},
 
 
 

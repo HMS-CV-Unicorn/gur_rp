@@ -1,0 +1,18 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/paper"
+	},
+	"overrides": [
+        {"predicate": {"custom_model_data":1}, "model": "item/reticles/cross"},
+        {"predicate": {"custom_model_data":2}, "model": "item/reticles/cross2"},
+        {"predicate": {"custom_model_data":3}, "model": "item/reticles/cross3"},
+        {"predicate": {"custom_model_data":4}, "model": "item/reticles/cross4"},
+        {"predicate": {"custom_model_data":1001}, "model": "item/reticles/nocross"},
+        {"predicate": {"custom_model_data":1002}, "model": "item/reticles/nocross"},
+        {"predicate": {"custom_model_data":1003}, "model": "item/reticles/nocross"},
+        {"predicate": {"custom_model_data":1004}, "model": "item/reticles/nocross"},
+        
+        {"predicate": {"custom_model_data":999999999}, "model":"item/weapons/reticle_pmii"}
+    ]
+}

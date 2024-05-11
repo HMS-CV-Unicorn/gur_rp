@@ -1,9 +1,13 @@
 {
-	"parent": "item/handheld",
+	"parent": "item/generated",
 	"textures": {
 		"layer0": "item/flint"
 	},
 	"overrides": [
+        {"predicate": {"custom_model_data":1}, "model": "item/reticles/cross"},
+        {"predicate": {"custom_model_data":2}, "model": "item/reticles/cross2"},
+        {"predicate": {"custom_model_data":3}, "model": "item/reticles/cross3"},
+        {"predicate": {"custom_model_data":4}, "model": "item/reticles/cross4"},
         {"predicate": {"custom_model_data":45}, "model": "item/grenade/m67"},
         {"predicate": {"custom_model_data":46}, "model": "item/grenade/m84"},
         {"predicate": {"custom_model_data":47}, "model": "item/grenade/rgo"},
@@ -19,6 +23,7 @@
         {"predicate": {"custom_model_data":57}, "model": "item/grenade/rgn"},
         {"predicate": {"custom_model_data":58}, "model": "item/grenade/rgd5"},
         {"predicate": {"custom_model_data":59}, "model": "item/grenade/f1"},
+        {"predicate": {"custom_model_data":60}, "model": "item/grenade/zarya"},
 
 
         {"predicate": {"custom_model_data":101}, "model": "item/items/painkiller"},
@@ -62,6 +67,13 @@
         {"predicate": {"custom_model_data":330}, "model": "item/ammo/smawammo"},
         {"predicate": {"custom_model_data":331}, "model": "item/ammo/408cheytacbullet"},
         {"predicate": {"custom_model_data":332}, "model": "item/ammo/84mm"},
-        {"predicate": {"custom_model_data":333}, "model": "item/ammo/fim92_missile"}
+        {"predicate": {"custom_model_data":333}, "model": "item/ammo/fim92_missile"},
+
+        {"predicate": {"custom_model_data":1001}, "model": "item/reticles/nocross"},
+        {"predicate": {"custom_model_data":1002}, "model": "item/reticles/nocross"},
+        {"predicate": {"custom_model_data":1003}, "model": "item/reticles/nocross"},
+        {"predicate": {"custom_model_data":1004}, "model": "item/reticles/nocross"},
+
+        {"predicate": {"custom_model_data":999999999}, "model":"item/weapons/reticle_pmii"}
       ]
 }
