@@ -640,6 +640,12 @@
 "ronshoot.ron_usp":{"category":"master","sounds":["ronshoot/ron_usp1","ronshoot/ron_usp2","ronshoot/ron_usp3","ronshoot/ron_usp4"]},
 "ronshoot.ron_m9":{"category":"master","sounds":["ronshoot/ron_m9_1","ronshoot/ron_m9_2"]},
 
+"extra.":{"category":"master","sounds":["extra/"]},
+"extra.aos_rel":{"category":"master","sounds":["extra/aos_rel"]},
+"extra.aos":{"category":"master","sounds":["extra/aos_1", "extra/aos_2", "extra/aos_3"]},
+"mono.extra.aos":{"category":"master","sounds":["1mono/extra/aos_1", "1mono/extra/aos_2", "1mono/extra/aos_3"]},
+
+
 
 
 "heavy.":{"category":"master","sounds":["heavy/"]},
