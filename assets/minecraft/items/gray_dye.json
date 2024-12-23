@@ -1,0 +1,36 @@
+{
+  "model": {
+      "type": "range_dispatch",
+      "property": "custom_model_data",
+      "fallback": { "type": "model", "model": "minecraft:item/gray_dye" },
+      "entries": [
+          { "threshold": 1, "model": { "type": "model", "model": "item/attachment/exps3" } },
+          { "threshold": 2, "model": { "type": "model", "model": "item/attachment/amg" } },
+          { "threshold": 3, "model": { "type": "model", "model": "item/attachment/delta" } },
+          { "threshold": 4, "model": { "type": "model", "model": "item/attachment/ekp8" } },
+          { "threshold": 5, "model": { "type": "model", "model": "item/attachment/exps3_booster" } },
+          { "threshold": 6, "model": { "type": "model", "model": "item/attachment/h1" } },
+          { "threshold": 7, "model": { "type": "model", "model": "item/attachment/okp7" } },
+          { "threshold": 8, "model": { "type": "model", "model": "item/attachment/pk120" } },
+          { "threshold": 9, "model": { "type": "model", "model": "item/attachment/acog" } },
+          { "threshold": 10, "model": { "type": "model", "model": "item/attachment/bravo4" } },
+          { "threshold": 11, "model": { "type": "model", "model": "item/attachment/compm4" } },
+          { "threshold": 12, "model": { "type": "model", "model": "item/attachment/xps2" } },
+          { "threshold": 13, "model": { "type": "model", "model": "item/attachment/pso1" } },
+          { "threshold": 14, "model": { "type": "model", "model": "item/attachment/psu14" } },
+          { "threshold": 15, "model": { "type": "model", "model": "item/attachment/ff416" } },
+          { "threshold": 16, "model": { "type": "model", "model": "item/attachment/marchf" } },
+          { "threshold": 17, "model": { "type": "model", "model": "item/attachment/nx8" } },
+          { "threshold": 18, "model": { "type": "model", "model": "item/attachment/sb312" } },
+          { "threshold": 19, "model": { "type": "model", "model": "item/attachment/xp6" } },
+          { "threshold": 20, "model": { "type": "model", "model": "item/attachment/ap_round2" } },
+          { "threshold": 21, "model": { "type": "model", "model": "item/attachment/hv_round" } },
+          { "threshold": 22, "model": { "type": "model", "model": "item/attachment/incendiary_round" } },
+          { "threshold": 23, "model": { "type": "model", "model": "item/attachment/jhp_round" } },
+          { "threshold": 24, "model": { "type": "model", "model": "item/attachment/slug" } },
+          { "threshold": 25, "model": { "type": "model", "model": "item/attachment/inc" } },
+          { "threshold": 26, "model": { "type": "model", "model": "item/attachment/exp" } },
+          { "threshold": 9999, "model": { "type": "model", "model": "item/unko" } }
+      ]
+  }
+}
