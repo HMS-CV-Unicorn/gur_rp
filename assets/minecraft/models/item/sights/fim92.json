@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"fim92": "item/sights2/fim92"
+		"fim92": "item/sights/fim92"
 	},
 	"elements": [ 	 
 		{

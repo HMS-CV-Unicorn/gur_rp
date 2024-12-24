@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"20230625162457_1": "item/sights2/20230625162457_1"
+		"20230625162457_1": "item/sights/20230625162457_1"
 	},
 	"elements": [ 	 
 		{

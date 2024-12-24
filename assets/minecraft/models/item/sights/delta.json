@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"delta": "item/sights2/delta"
+		"delta": "item/sights/delta"
 	},
 	"elements": [ 	 
 		{

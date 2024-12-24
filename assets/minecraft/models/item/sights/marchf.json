@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"marchf": "item/sights2/marchf"
+		"marchf": "item/sights/marchf"
 	},
 	"elements": [ 	 
 		{

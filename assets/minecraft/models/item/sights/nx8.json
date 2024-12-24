@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"nx8": "item/sights2/nx8"
+		"nx8": "item/sights/nx8"
 	},
 	"elements": [ 	 
 		{

@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"pk120": "item/sights2/pk120"
+		"pk120": "item/sights/pk120"
 	},
 	"elements": [ 	 
 		{

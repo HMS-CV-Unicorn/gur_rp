@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"kashtan": "item/sights2/kashtan"
+		"kashtan": "item/sights/kashtan"
 	},
 	"elements": [ 	 
 		{

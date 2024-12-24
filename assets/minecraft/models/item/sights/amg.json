@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"amg": "item/sights2/amg"
+		"amg": "item/sights/amg"
 	},
 	"elements": [ 	 
 		{

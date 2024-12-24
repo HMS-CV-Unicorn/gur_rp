@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"aceofspades": "item/sights2/aceofspades"
+		"aceofspades": "item/sights/aceofspades"
 	},
 	"elements": [ 	 
 		{

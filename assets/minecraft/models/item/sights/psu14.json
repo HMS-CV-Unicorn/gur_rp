@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "blocks/e_particle",
 		"texture": "blocks/e_texture",
-		"psu14": "item/sights2/psu14"
+		"psu14": "item/sights/psu14"
 	},
 	"elements": [ 	 
 		{
