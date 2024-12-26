@@ -1,12 +1,11 @@
 {
-  "parent": "item/generated",
-  "textures": {
-      "layer0": "item/items/golden_carrot"
-  },
-
-  "overrides": [
-    { "predicate": {"custom_model_data":1}, "model": "item/items/cm"},
-    { "predicate": {"custom_model_data":2}, "model": "item/items/iphone_gta"} 
-
-  ]
+  "model": {
+      "type": "range_dispatch",
+      "property": "custom_model_data",
+      "fallback": { "type": "model", "model": "item/golden_carrot" },
+      "entries": [
+          { "threshold": 1, "model": { "type": "model", "model": "item/items/cm" } },
+          { "threshold": 2, "model": { "type": "model", "model": "item/items/iphone_gta" } }
+      ]
+  }
 }

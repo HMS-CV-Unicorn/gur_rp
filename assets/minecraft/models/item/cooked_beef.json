@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+      "layer0": "item/items/cooked_beef"
+  },
+
+  "overrides": [
+    { "predicate": {"custom_model_data":1}, "model": "item/items/mre"},
+    { "predicate": {"custom_model_data":2}, "model": "item/items/ration_ru"}
+
+  ]
+}

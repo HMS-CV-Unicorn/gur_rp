@@ -1,12 +1,11 @@
 {
-  "parent": "item/generated",
-  "textures": {
-      "layer0": "item/items/cooked_beef"
-  },
-
-  "overrides": [
-    { "predicate": {"custom_model_data":1}, "model": "item/items/mre"},
-    { "predicate": {"custom_model_data":2}, "model": "item/items/ration_ru"}
-
-  ]
+  "model": {
+      "type": "range_dispatch",
+      "property": "custom_model_data",
+      "fallback": { "type": "model", "model": "item/cooked_beef" },
+      "entries": [
+          { "threshold": 1, "model": { "type": "model", "model": "item/items/mre" } },
+          { "threshold": 2, "model": { "type": "model", "model": "item/items/ration_ru" } }
+      ]
+  }
 }
