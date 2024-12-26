@@ -2,7 +2,7 @@
     "model": {
         "type": "range_dispatch",
         "property": "custom_model_data",
-        "fallback": { "type": "model", "model": "item/crossbow_standby" },
+        "fallback": { "type": "model", "model": "item/crossbow" },
         "entries": [
             {"threshold": 18, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
         {"threshold": 19, "model":{"type": "model", "model": "item/mw/scarh_mod"}},
