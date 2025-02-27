@@ -123,7 +123,7 @@
 
 
 "mono.mw2shoot.mw2mp5":{"category":"master","sounds":["1mono/mw2shoot/mw2mp5_1","mw2shoot/mw2mp5_2","1mono/mw2shoot/mw2mp5_3"]},
-"mono.mw2shoot.mw2mp5in":{"category":"master","sounds":["1mono/mw2shoot/mw2mp5_1in","mw2shoot/mw2mp5_2in","1mono/mw2shoot/mw2mp5_3in"]},
+"mono.mw2shoot.mw2mp5in":{"category":"master","sounds":["1mono/mw2shoot/mw2mp5_1in","1mono/mw2shoot/mw2mp5_2in","1mono/mw2shoot/mw2mp5_3in"]},
 
 "mono.mw2shoot.mw2m14":{"category":"master","sounds":["1mono/mw2shoot/m14_1","1mono/mw2shoot/m14_2","1mono/mw2shoot/m14_3"]},
 "mono.mw2shoot.mw2m14in":{"category":"master","sounds":["1mono/mw2shoot/m14_1in","1mono/mw2shoot/m14_2in","1mono/mw2shoot/m14_3in"]},
