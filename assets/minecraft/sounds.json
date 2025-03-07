@@ -1,4 +1,16 @@
 {
+"bo6shoot.":{"category":"master","sounds":["bo6shoot/"]},
+"bo6reload.":{"category":"master","sounds":["bo6reload/"]},
+
+
+"bo6shoot.bo6m4":{"category":"master","sounds":["bo6shoot/bo6m4_1"]},
+"bo6shoot.bo6m4in":{"category":"master","sounds":["bo6shoot/bo6m4_1in"]},
+"mono.bo6shoot.bo6m4":{"category":"master","sounds":["1mono/bo6shoot/bo6m4_1"]},
+"mono.bo6shoot.bo6m4in":{"category":"master","sounds":["1mono/bo6shoot/bo6m4_1in"]},
+
+"bo6reload.bo6m4rel1":{"category":"master","sounds":["bo6reload/bo6m4rel1"]},
+
+
 
 "mw3shoot.":{"category":"master","sounds":["mw3shoot/"]},
 
@@ -61,6 +73,8 @@
 
 "mw2shoot.mw2m4":{"category":"master","sounds":["mw2shoot/mw2m4_1","mw2shoot/mw2m4_2","mw2shoot/mw2m4_3"]},
 "mw2shoot.mw2m4_1":{"category":"master","sounds":["mw2shoot/mw2m4_1"]},
+"mw2shoot.mw2m4b":{"category":"master","sounds":["mw2shoot/mw2m4b_1"]},
+"mw2shoot.mw2m4bin":{"category":"master","sounds":["mw2shoot/mw2m4b_1in"]},
 "mw2shoot.mw2m4in":{"category":"master","sounds":["mw2shoot/mw2m4_1in","mw2shoot/mw2m4_2in","mw2shoot/mw2m4_3in"]},
 
 
@@ -143,6 +157,8 @@
 "mono.mw2shoot.mw2m4":{"category":"master","sounds":["1mono/mw2shoot/mw2m4_1","1mono/mw2shoot/mw2m4_2","1mono/mw2shoot/mw2m4_3"]},
 "mono.mw2shoot.mw2m4_1":{"category":"master","sounds":["1mono/mw2shoot/mw2m4_1"]},
 "mono.mw2shoot.mw2m4in":{"category":"master","sounds":["1mono/mw2shoot/mw2m4_1in","1mono/mw2shoot/mw2m4_2in","1mono/mw2shoot/mw2m4_3in"]},
+"mono.mw2shoot.mw2m4b":{"category":"master","sounds":["1mono/mw2shoot/mw2m4b_1"]},
+"mono.mw2shoot.mw2m4bin":{"category":"master","sounds":["1mono/mw2shoot/mw2m4b_1in"]},
 
 
 "mono.mw2shoot.mw2scarh":{"category":"master","sounds":["1mono/mw2shoot/mw2scarh_1","1mono/mw2shoot/mw2scarh_2","1mono/mw2shoot/mw2scarh_3"]},
@@ -229,6 +245,8 @@
 "mw2reload.mw2m4rel1":{"category":"master","sounds":[{"name":"mw2reload/mw2m4rel1","volume":1.0}]},
 "mw2reload.mw2m4rel2":{"category":"master","sounds":[{"name":"mw2reload/mw2m4rel2","volume":1.0}]},
 "mw2reload.mw2m4rel3":{"category":"master","sounds":[{"name":"mw2reload/mw2m4rel3","volume":1.0}]},
+"mw2reload.mw2m4brel1":{"category":"master","sounds":[{"name":"mw2reload/mw2m4brel1","volume":1.0}]},
+"mw2reload.mw2m4brel2":{"category":"master","sounds":[{"name":"mw2reload/mw2m4brel2","volume":1.0}]},
 
 
 "mw2reload.mw2scarhrel1":{"category":"master","sounds":["mw2reload/mw2scarhrel1"]},
@@ -479,6 +497,8 @@
 "mw2019shoot.mw2019glockin":{"category":"master","sounds":["mw2019shoot/mw2019glock_1in","mw2019shoot/mw2019glock_2in","mw2019shoot/mw2019glock_3in"]},
 
 "mw2019shoot.mw2019m4":{"category":"master","sounds":["mw2019shoot/mw2019m4"]},
+"mw2019shoot.mw2019m4in":{"category":"master","sounds":["mw2019shoot/mw2019m4in"]},
+"mw2019shoot.mw2019m4_1":{"category":"master","sounds":["mw2019shoot/mw2019m4_1"]},
 "mw2019shoot.mw2019m4_2":{"category":"master","sounds":["mw2019shoot/mw2019m4_2"]},
 
 "mw2019shoot.mw2019cz3a1":{"category":"master","sounds":["mw2019shoot/mw2019cz3a1"]},
@@ -570,8 +590,10 @@
 "mono.mw2019shoot.mw2019glock":{"category":"master","sounds":["1mono/mw2019shoot/mw2019glock_1","1mono/mw2019shoot/mw2019glock_2","1mono/mw2019shoot/mw2019glock_3"]},
 "mono.mw2019shoot.mw2019glockin":{"category":"master","sounds":["1mono/mw2019shoot/mw2019glock_1in","1mono/mw2019shoot/mw2019glock_2in","1mono/mw2019shoot/mw2019glock_3in"]},
 
-"mono.mw2019shoot.mw2019m4":{"category":"master","sounds":["1mono/mw2019shoot/mw2019m4"]},
+"mono.mw2019shoot.mw2019m4_1":{"category":"master","sounds":["1mono/mw2019shoot/mw2019m4_1"]},
 "mono.mw2019shoot.mw2019m4_2":{"category":"master","sounds":["1mono/mw2019shoot/mw2019m4_2"]},
+"mono.mw2019shoot.mw2019m4":{"category":"master","sounds":["1mono/mw2019shoot/mw2019m4"]},
+"mono.mw2019shoot.mw2019m4in":{"category":"master","sounds":["1mono/mw2019shoot/mw2019m4in"]},
 
 "mono.mw2019shoot.mw2019cz3a1":{"category":"master","sounds":["1mono/mw2019shoot/mw2019cz3a1"]},
 "mono.mw2019shoot.mw2019cz3a1_in":{"category":"master","sounds":["1mono/mw2019shoot/mw2019cz3a1_in"]},
@@ -644,6 +666,8 @@
 "extra.aos_rel":{"category":"master","sounds":["extra/aos_rel"]},
 "extra.aos":{"category":"master","sounds":["extra/aos_1", "extra/aos_2", "extra/aos_3"]},
 "mono.extra.aos":{"category":"master","sounds":["1mono/extra/aos_1", "1mono/extra/aos_2", "1mono/extra/aos_3"]},
+
+
 
 
 
