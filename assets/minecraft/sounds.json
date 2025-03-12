@@ -99,7 +99,8 @@
 "mw2shoot.mw2m1014in":{"category":"master","sounds":["mw2shoot/mw2m1014in_1","mw2shoot/mw2m1014in_2","mw2shoot/mw2m1014in_3","mw2shoot/mw2m1014in_4"]},
 
 
-"mw2shoot.mw2ak103_1":{"category":"master","sounds":["mw2shoot/mw2ak103_1"]},
+"mw2shoot.mw2ak103_4":{"category":"master","sounds":["mw2shoot/mw2ak103_4"]},
+"mw2shoot.mw2ak103_4in":{"category":"master","sounds":["mw2shoot/mw2ak103_4in"]},
 "mw2shoot.mw2ak103":{"category":"master","sounds":["mw2shoot/mw2ak103_1","mw2shoot/mw2ak103_2","mw2shoot/mw2ak103_3"]},
 "mw2shoot.mw2ak103in":{"category":"master","sounds":["mw2shoot/mw2ak103_1in","mw2shoot/mw2ak103_2in","mw2shoot/mw2ak103_3in"]},
 
@@ -182,7 +183,8 @@
 "mono.mw2shoot.mw2m1014in":{"category":"master","sounds":["1mono/mw2shoot/mw2m1014in_1","1mono/mw2shoot/mw2m1014in_2","1mono/mw2shoot/mw2m1014in_3","1mono/mw2shoot/mw2m1014in_4"]},
 
 
-"mono.mw2shoot.mw2ak103_1":{"category":"master","sounds":["1mono/mw2shoot/mw2ak103_1"]},
+"mono.mw2shoot.mw2ak103_4":{"category":"master","sounds":["1mono/mw2shoot/mw2ak103_4"]},
+"mono.mw2shoot.mw2ak103_4in":{"category":"master","sounds":["1mono/mw2shoot/mw2ak103_4in"]},
 "mono.mw2shoot.mw2ak103":{"category":"master","sounds":["1mono/mw2shoot/mw2ak103_1","1mono/mw2shoot/mw2ak103_2","1mono/mw2shoot/mw2ak103_3"]},
 "mono.mw2shoot.mw2ak103in":{"category":"master","sounds":["1mono/mw2shoot/mw2ak103_1in","1mono/mw2shoot/mw2ak103_2in","1mono/mw2shoot/mw2ak103_3in"]},
 
@@ -320,6 +322,11 @@
 
 
 "mw2019reload.":{"category":"master","sounds":["mw2019reload/"]},
+
+"mw2019reload.mw2019ak47rel1":{"category":"master","sounds":["mw2019reload/mw2019ak47rel1"]},
+"mw2019reload.mw2019ak47rel2":{"category":"master","sounds":["mw2019reload/mw2019ak47rel2"]},
+"mw2019reload.mw2019ak74rel1":{"category":"master","sounds":["mw2019reload/mw2019ak74rel1"]},
+"mw2019reload.mw2019ak74rel2":{"category":"master","sounds":["mw2019reload/mw2019ak74rel2"]},
 
 "mw2019reload.mw2019an94_rel1":{"category":"master","sounds":["mw2019reload/mw2019an94_rel1"]},
 "mw2019reload.mw2019an94_rel2":{"category":"master","sounds":["mw2019reload/mw2019an94_rel2"]},
