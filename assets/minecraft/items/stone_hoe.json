@@ -16764,6 +16764,8 @@
         {"threshold": 9003065, "model":{"type": "model", "model": "item/mw/m320"}},
         {"threshold": 9003066, "model":{"type": "model", "model": "item/mw/mgl_mdd"}},
         {"threshold": 10000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10001018,
                 "model": {
@@ -16779,9 +16781,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2_aiming"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd_aiming"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 10100018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10100023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10100024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10101018,
                 "model": {
@@ -16797,9 +16835,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10101023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/exps3"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10101024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/exps3"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10102018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10102023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10102024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10103018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10103023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10103024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 10200018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10200023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10200024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10201018,
                 "model": {
@@ -16815,9 +16889,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10201023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/amg"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10201024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/amg"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10202018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10202023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10202024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10203018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10203023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10203024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 10300018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10300023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10300024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10301018,
                 "model": {
@@ -16833,9 +16943,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10301023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/delta"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10301024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/delta"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10302018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10302023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10302024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10303018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10303023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10303024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 10400018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10400023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10400024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10401018,
                 "model": {
@@ -16851,9 +16997,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10401023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/ekp818"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10401024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/ekp818"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10402018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10402023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10402024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10403018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10403023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10403024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 10500018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10500023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10500024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10501018,
                 "model": {
@@ -16869,9 +17051,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10501023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/okp7"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10501024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/okp7"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10502018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10502023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10502024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10503018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10503023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10503024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 10600018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10600023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10600024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10601018,
                 "model": {
@@ -16887,9 +17105,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10601023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/pk120"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10601024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/pk120"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10602018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10602023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10602024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10603018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10603023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10603024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 10700018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10700023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10700024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10701018,
                 "model": {
@@ -16905,9 +17159,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10701023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/h1"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10701024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/h1"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10702018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10702023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10702024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10703018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10703023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10703024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 10800018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10800023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10800024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10801018,
                 "model": {
@@ -16923,9 +17213,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10801023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/acog"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10801024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/acog"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10802018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10802023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10802024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10803018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10803023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10803024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 10900018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10900023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10900024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 10901018,
                 "model": {
@@ -16941,9 +17267,45 @@
                     }
                 }
             },
+        {
+                "threshold": 10901023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/bravo4"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 10901024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/bravo4"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 10902018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 10902023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 10902024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 10903018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 10903023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 10903024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 11000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 11000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 11000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 11001018,
                 "model": {
@@ -16959,9 +17321,45 @@
                     }
                 }
             },
+        {
+                "threshold": 11001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/xps2"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 11001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/xps2"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 11002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 11002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 11002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 11003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 11003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 11003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 12000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 12000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 12000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 12001018,
                 "model": {
@@ -16977,9 +17375,45 @@
                     }
                 }
             },
+        {
+                "threshold": 12001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/ff416"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 12001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/ff416"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 12002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 12002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 12002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 12003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 12003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 12003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 13000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 13000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 13000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 13001018,
                 "model": {
@@ -16995,9 +17429,45 @@
                     }
                 }
             },
+        {
+                "threshold": 13001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/marchf"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 13001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/marchf"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 13002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 13002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 13002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 13003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 13003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 13003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 14000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 14000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 14000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 14001018,
                 "model": {
@@ -17013,9 +17483,45 @@
                     }
                 }
             },
+        {
+                "threshold": 14001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/nx8"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 14001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/nx8"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 14002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 14002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 14002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 14003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 14003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 14003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 15000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 15000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 15000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 15001018,
                 "model": {
@@ -17031,9 +17537,45 @@
                     }
                 }
             },
+        {
+                "threshold": 15001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/pso1"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 15001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/pso1"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 15002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 15002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 15002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 15003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 15003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 15003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 16000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 16000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 16000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 16001018,
                 "model": {
@@ -17049,9 +17591,45 @@
                     }
                 }
             },
+        {
+                "threshold": 16001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/psu14"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 16001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/psu14"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 16002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 16002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 16002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 16003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 16003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 16003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 17000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 17000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 17000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 17001018,
                 "model": {
@@ -17067,9 +17645,45 @@
                     }
                 }
             },
+        {
+                "threshold": 17001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/sb312"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 17001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/sb312"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 17002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 17002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 17002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 17003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 17003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 17003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 18000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 18000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 18000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 18001018,
                 "model": {
@@ -17085,9 +17699,45 @@
                     }
                 }
             },
+        {
+                "threshold": 18001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/xp6"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 18001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/xp6"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 18002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 18002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 18002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 18003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 18003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 18003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 19000018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 19000023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 19000024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {
                 "threshold": 19001018,
                 "model": {
@@ -17103,9 +17753,45 @@
                     }
                 }
             },
+        {
+                "threshold": 19001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/compm4"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak105_zenit_mdd2"
+                    }
+                }
+            },
+        {
+                "threshold": 19001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/compm4"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak103_zenit_mdd"
+                    }
+                }
+            },
         {"threshold": 19002018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd_sprint"}},
+        {"threshold": 19002023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2_sprint"}},
+        {"threshold": 19002024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd_sprint"}},
         {"threshold": 19003018, "model":{"type": "model", "model": "item/mw/m4sopmod2_mdd"}},
+        {"threshold": 19003023, "model":{"type": "model", "model": "item/mw/ak105_zenit_mdd2"}},
+        {"threshold": 19003024, "model":{"type": "model", "model": "item/mw/ak103_zenit_mdd"}},
         {"threshold": 20000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20001018,
                 "model": {
@@ -17121,9 +17807,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1_aiming"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1_aiming"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 20100018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20100023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20100024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20101018,
                 "model": {
@@ -17139,9 +17861,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20101023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/exps3"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20101024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/exps3"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20102018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20102023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20102024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20103018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20103023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20103024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 20200018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20200023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20200024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20201018,
                 "model": {
@@ -17157,9 +17915,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20201023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/amg"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20201024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/amg"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20202018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20202023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20202024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20203018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20203023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20203024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 20300018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20300023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20300024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20301018,
                 "model": {
@@ -17175,9 +17969,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20301023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/delta"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20301024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/delta"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20302018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20302023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20302024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20303018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20303023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20303024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 20400018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20400023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20400024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20401018,
                 "model": {
@@ -17193,9 +18023,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20401023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/ekp818"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20401024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/ekp818"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20402018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20402023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20402024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20403018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20403023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20403024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 20500018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20500023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20500024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20501018,
                 "model": {
@@ -17211,9 +18077,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20501023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/okp7"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20501024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/okp7"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20502018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20502023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20502024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20503018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20503023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20503024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 20600018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20600023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20600024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20601018,
                 "model": {
@@ -17229,9 +18131,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20601023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/pk120"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20601024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/pk120"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20602018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20602023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20602024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20603018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20603023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20603024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 20700018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20700023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20700024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20701018,
                 "model": {
@@ -17247,9 +18185,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20701023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/h1"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20701024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/h1"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20702018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20702023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20702024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20703018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20703023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20703024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 20800018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20800023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20800024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20801018,
                 "model": {
@@ -17265,9 +18239,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20801023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/acog"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20801024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/acog"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20802018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20802023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20802024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20803018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20803023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20803024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 20900018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20900023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20900024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 20901018,
                 "model": {
@@ -17283,9 +18293,45 @@
                     }
                 }
             },
+        {
+                "threshold": 20901023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/bravo4"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 20901024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/bravo4"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 20902018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 20902023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 20902024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 20903018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 20903023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 20903024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 21000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 21000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 21000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 21001018,
                 "model": {
@@ -17301,9 +18347,45 @@
                     }
                 }
             },
+        {
+                "threshold": 21001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/xps2"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 21001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/xps2"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 21002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 21002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 21002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 21003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 21003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 21003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 22000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 22000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 22000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 22001018,
                 "model": {
@@ -17319,9 +18401,45 @@
                     }
                 }
             },
+        {
+                "threshold": 22001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/ff416"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 22001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/ff416"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 22002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 22002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 22002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 22003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 22003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 22003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 23000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 23000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 23000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 23001018,
                 "model": {
@@ -17337,9 +18455,45 @@
                     }
                 }
             },
+        {
+                "threshold": 23001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/marchf"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 23001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/marchf"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 23002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 23002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 23002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 23003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 23003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 23003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 24000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 24000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 24000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 24001018,
                 "model": {
@@ -17355,9 +18509,45 @@
                     }
                 }
             },
+        {
+                "threshold": 24001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/nx8"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 24001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/nx8"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 24002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 24002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 24002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 24003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 24003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 24003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 25000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 25000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 25000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 25001018,
                 "model": {
@@ -17373,9 +18563,45 @@
                     }
                 }
             },
+        {
+                "threshold": 25001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/pso1"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 25001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/pso1"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 25002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 25002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 25002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 25003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 25003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 25003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 26000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 26000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 26000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 26001018,
                 "model": {
@@ -17391,9 +18617,45 @@
                     }
                 }
             },
+        {
+                "threshold": 26001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/psu14"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 26001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/psu14"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 26002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 26002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 26002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 26003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 26003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 26003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 27000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 27000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 27000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 27001018,
                 "model": {
@@ -17409,9 +18671,45 @@
                     }
                 }
             },
+        {
+                "threshold": 27001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/sb312"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 27001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/sb312"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 27002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 27002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 27002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 27003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 27003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 27003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 28000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 28000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 28000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 28001018,
                 "model": {
@@ -17427,9 +18725,45 @@
                     }
                 }
             },
+        {
+                "threshold": 28001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/xp6"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 28001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/xp6"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 28002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 28002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 28002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 28003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 28003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 28003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 29000018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 29000023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 29000024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {
                 "threshold": 29001018,
                 "model": {
@@ -17445,8 +18779,42 @@
                     }
                 }
             },
+        {
+                "threshold": 29001023,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/compm4"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak12_mdd1"
+                    }
+                }
+            },
+        {
+                "threshold": 29001024,
+                "model": {
+                    "type": "condition",
+                    "property": "view_entity",
+                    "on_true": {
+                        "type": "model",
+                        "model": "item/sights/compm4"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "item/mw/ak15_mdd1"
+                    }
+                }
+            },
         {"threshold": 29002018, "model":{"type": "model", "model": "item/mw/mk18_mdd2_sprint"}},
+        {"threshold": 29002023, "model":{"type": "model", "model": "item/mw/ak12_mdd1_sprint"}},
+        {"threshold": 29002024, "model":{"type": "model", "model": "item/mw/ak15_mdd1_sprint"}},
         {"threshold": 29003018, "model":{"type": "model", "model": "item/mw/mk18_mdd2"}},
+        {"threshold": 29003023, "model":{"type": "model", "model": "item/mw/ak12_mdd1"}},
+        {"threshold": 29003024, "model":{"type": "model", "model": "item/mw/ak15_mdd1"}},
         {"threshold": 30000018, "model":{"type": "model", "model": "item/mw/m4_urg1_mdd"}},
         {
                 "threshold": 30001018,
