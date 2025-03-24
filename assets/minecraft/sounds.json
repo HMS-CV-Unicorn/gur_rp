@@ -71,6 +71,12 @@
 "mw2shoot.mw2ak101in":{"category":"master","sounds":["mw2shoot/mw2ak101in_1","mw2shoot/mw2ak101in_2"]},
 "mw2shoot.mw2ak101":{"category":"master","sounds":["mw2shoot/mw2ak101_1","mw2shoot/mw2ak101_2","mw2shoot/mw2ak101_3"]},
 
+"mw2shoot.mw2ak105_1":{"category":"master","sounds":["mw2shoot/mw2ak105_1"]},
+"mw2shoot.mw2ak105_1in":{"category":"master","sounds":["mw2shoot/mw2ak105_1in"]},
+"mono.mw2shoot.mw2ak105_1":{"category":"master","sounds":["1mono/mw2shoot/mw2ak105_1"]},
+"mono.mw2shoot.mw2ak105_1in":{"category":"master","sounds":["1mono/mw2shoot/mw2ak105_1in"]},
+
+
 "mw2shoot.mw2m4":{"category":"master","sounds":["mw2shoot/mw2m4_1","mw2shoot/mw2m4_2","mw2shoot/mw2m4_3"]},
 "mw2shoot.mw2m4_1":{"category":"master","sounds":["mw2shoot/mw2m4_1"]},
 "mw2shoot.mw2m4b":{"category":"master","sounds":["mw2shoot/mw2m4b_1"]},
@@ -223,6 +229,12 @@
 
 
 "mw2reload.":{"category":"master","sounds":["mw2reload/"]},
+
+
+"mw2reload.ak105_rel1":{"category":"master","sounds":["mw2reload/mw2ak105_rel1"]},
+"mw2reload.ak105_rel2":{"category":"master","sounds":["mw2reload/mw2ak105_rel2"]},
+"mw2reload.ak105_rel3":{"category":"master","sounds":["mw2reload/mw2ak105_rel3"]},
+"mw2reload.ak105_rel4":{"category":"master","sounds":["mw2reload/mw2ak105_rel4a", "mw2reload/mw2ak105_rel4b", "mw2reload/mw2ak105_rel4c"]},
 
 "mw2reload.mw2mp5rel_1":{"category":"master","sounds":["mw2reload/mw2mp5rel_1"]},
 "mw2reload.mw2mp5rel_2":{"category":"master","sounds":["mw2reload/mw2mp5rel_2"]},
