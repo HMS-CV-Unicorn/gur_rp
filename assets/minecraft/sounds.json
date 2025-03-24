@@ -1,4 +1,5 @@
 {
+
 "bo6shoot.":{"category":"master","sounds":["bo6shoot/"]},
 "bo6reload.":{"category":"master","sounds":["bo6reload/"]},
 
@@ -457,6 +458,9 @@
 "mw2019reload.mw2019mg34_rel1":{"category":"master","sounds":["mw2019reload/mw2019mg34_rel1"]},
 "mw2019reload.mw2019mg34_rel2":{"category":"master","sounds":["mw2019reload/mw2019mg34_rel2"]},
 
+"mw2019reload.mw2019scar17_rel1":{"category":"master","sounds":["mw2019reload/mw2019scar17_rel1"]},
+"mw2019reload.mw2019scar17_rel2":{"category":"master","sounds":["mw2019reload/mw2019scar17_rel2"]},
+
 
 
 
@@ -484,6 +488,11 @@
 "mw2019shoot.mw2019galil_1in":{"category":"master","sounds":["mw2019shoot/mw2019galil_1in"]},
 "mono.mw2019shoot.mw2019galil_1":{"category":"master","sounds":["1mono/mw2019shoot/mw2019galil_1"]},
 "mono.mw2019shoot.mw2019galil_1in":{"category":"master","sounds":["1mono/mw2019shoot/mw2019galil_1in"]},
+
+"mw2019shoot.mw2019scar17_1":{"category":"master","sounds":["mw2019shoot/mw2019scar17_1"]},
+"mw2019shoot.mw2019scar17_1in":{"category":"master","sounds":["mw2019shoot/mw2019scar17_1in"]},
+"mono.mw2019shoot.mw2019scar17_1":{"category":"master","sounds":["1mono/mw2019shoot/mw2019scar17_1"]},
+"mono.mw2019shoot.mw2019scar17_1in":{"category":"master","sounds":["1mono/mw2019shoot/mw2019scar17_1in"]},
 
 "mw2019shoot.mw2019ak47":{"category":"master","sounds":["mw2019shoot/mw2019ak47_1","mw2019shoot/mw2019ak47_2","mw2019shoot/mw2019ak47_3"]},
 "mw2019shoot.mw2019ak47_1":{"category":"master","sounds":["mw2019shoot/mw2019ak47_4"]},
